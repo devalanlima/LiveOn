@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-primevue',
     '@nuxtjs/tailwindcss',
+    'nuxt-icon',
   ],
   css:["assets/css/theme.css", "assets/css/tailwind.css"],
   primevue: {
