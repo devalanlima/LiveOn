@@ -42,4 +42,12 @@ const items = ref([
     icon: 'prime:home'
   },
 ]);
+
+
 </script>
+
+<style scoped>
+.p-menubar{
+  @apply rounded-none border-transparent border-b-primary_color
+}
+</style>
