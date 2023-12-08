@@ -10,6 +10,12 @@
 }
 
 @layer base {
+  :root{
+    --surface-a-tw: 0 0 0;
+    --primary-color-tw: 242 128 28;
+    --primary-color-text-tw: 0 0 0;
+    --secondary-color-text-tw: 179 179 179;
+  }
   body {
     @apply bg-black;
   }
