@@ -1,12 +1,15 @@
 <template>
-  <div>
-    <Icon
-      name="LiveOnLarge"
-      size="100"
-    />
-  </div>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
 
 <script setup>
-const bgRed = ref(true)
+
 </script>
+
+<style>
+.p-avatar {
+  @apply rounded-full
+}
+</style>
