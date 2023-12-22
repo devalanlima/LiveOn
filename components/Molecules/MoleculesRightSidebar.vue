@@ -1,5 +1,5 @@
 <template>
-  <div :class="[' flex max-w-[345px] min-w-[20px] relative overflow-hidden', isOpen ? 'w-full' : 'w-0']">
+  <div :class="[' md:flex max-w-[345px] min-w-[20px] relative overflow-hidden hidden', isOpen ? 'w-full' : 'w-0']">
     <button
       class="w-[20px] h-full bg-primary_color relative overflow-hidden"
       @click="isOpen = !isOpen"
@@ -7,7 +7,7 @@
       <Icon
         :name="isOpen ? 'prime:angle-right' : 'prime:angle-left'"
         size="30"
-        class="-translate-x-1"
+        class="-translate-x-1 text-primary_color_text"
       />
 
     </button>
