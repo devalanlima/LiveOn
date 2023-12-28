@@ -13,10 +13,33 @@
   :root{
     --surface-a-tw: 0 0 0;
     --primary-color-tw: 242 128 28;
-    --primary-color-text-tw: 0 0 0;
-    --secondary-color-text-tw: 179 179 179;
+    --secondary-color-tw: 250 250 250;
+    --primary-color-text-tw: 250 250 250;
+    --secondary-color-text-tw: 0 0 0;
   }
   body {
-    @apply bg-black;
+    @apply bg-black text-primary_color_text;
+  }
+  ::-webkit-scrollbar {
+    @apply w-3;
+  }
+
+  /* Cor de fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary_color_text outline outline-1 outline-primary_color;
+  }
+
+  /* Cor do thumb (a alça da barra de rolagem) */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary_color;
+  }
+
+  /* Cor do thumb quando passar o mouse por cima */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary_color bg-opacity-70;
+  }
+  html {
+    scrollbar-color: #f2801c #0d0d0d;
+    @apply scroll-smooth;
   }
 }
