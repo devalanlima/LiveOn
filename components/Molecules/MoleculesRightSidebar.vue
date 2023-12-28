@@ -7,7 +7,7 @@
       <Icon
         :name="isOpen ? 'prime:angle-right' : 'prime:angle-left'"
         size="30"
-        class="-translate-x-1 text-primary_color_text"
+        class="-translate-x-1 text-secondary_color_text"
       />
 
     </button>
