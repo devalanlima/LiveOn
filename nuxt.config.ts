@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   primevue: {
     options: {
     }
+  },
+  routeRules: {
+    '/post/create': { ssr: false },
   }
 })
